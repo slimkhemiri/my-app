@@ -1,10 +1,12 @@
-import SideNavBar from './SideNavBar/SideNavBar'
-
+// import SideNavBar from './SideNavBar/SideNavBar'
+import Counter from './Counter'
 
 function App() {
   return (
     <>
-    <SideNavBar/>
+     <Counter/>
+    {/* <SideNavBar/> */}
+   
 
     </>
   );

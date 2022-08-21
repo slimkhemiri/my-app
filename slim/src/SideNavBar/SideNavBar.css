@@ -1,13 +1,13 @@
 /* NX = not expanded */
 
 .side-nav-container {
-	background-color: var(--dark);
+	background-color:black;
 	width: 300px;
 	height: 100vh;
 	position: relative;
-	color: var(--light);
+	color: #fff;
 
-	transition: 0.4s;
+	transition: 0.2s;
 }
 .side-nav-container-NX {
 	width: 85px;
@@ -49,7 +49,7 @@
 .hamburger span {
 	display: block;
 	margin-top: 5px;
-	background-color: var(--light);
+	background-color: #fff;
 	border-radius: 15px;
 	height: 5px;
 	width: 35px;
@@ -58,7 +58,7 @@
 }
 
 .hamburger:hover span {
-	background-color: var(--primary);
+	background-color: #fff;
 }
 
 .hamburger-in:hover span:nth-child(1) {
@@ -111,7 +111,7 @@
 	margin: auto;
 }
 .menu-item:hover {
-	background-color: var(--primary);
+	background-color: blue;
 }
 .menu-item img {
 	width: 30px;
@@ -152,5 +152,5 @@
 	margin-left: 5px;
 }
 .logout-icon:hover {
-	background-color: var(--primary);
+	background-color: blue;
 }
