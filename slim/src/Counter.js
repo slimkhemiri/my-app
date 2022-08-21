@@ -23,6 +23,7 @@ const handleDec=()=>{
 
 
 
+/* A hook that is used to perform side effects in function components. */
 useEffect(()=>{
 
 },[])
